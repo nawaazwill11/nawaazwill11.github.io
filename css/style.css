@@ -34,7 +34,7 @@ hr {
 	font-size: 5rem;
 	color: #f0c51b;
 }
-.nav-tabs li {
+.nav-tabs .nav-link {
 	padding: .5rem .5rem;
 }
 .form-group {
