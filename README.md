@@ -1,2 +1,0 @@
-# uningo
-Universal NGO website
