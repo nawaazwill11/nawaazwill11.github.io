@@ -89,6 +89,15 @@ hr {
 	padding: 1.2rem
 }
 
+#mission .box {
+	/* p-3 my-4 d-flex justify-content-center */
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 2rem;
+	margin: 2rem 0;
+}
+
 #mission .icon-text-holder {
 	display: flex;
 	flex-direction: column;
@@ -143,8 +152,8 @@ hr {
 }
 
 #helpus {
-	background: no-repeat center right fixed url(../img/donate.jpg);
-	background-size: 100%;
+	background: no-repeat center center fixed url(../img/donate3.webp);
+	/* background-size: 100%; */
 }
 
 #helpus .content {
@@ -165,7 +174,8 @@ hr {
 
 #helpus .content .button button {
 	text-align: center;
-	font-size: 1.8rem;
+	padding: 1rem 2rem;
+	font-size: 1.2rem;
 }
 
 #footer {
@@ -252,7 +262,7 @@ hr {
 		margin: 0;
 	}
 	#mission .container {
-		padding: 40px 180px
+		/* padding: 40px 180px */
 	}
 	#footer .about .image {
 		justify-content: flex-start;
