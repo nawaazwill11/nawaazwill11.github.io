@@ -35,6 +35,10 @@ hr {
 	color: #f0c51b;
 }
 
+.form-group {
+	margin-bottom: 2rem;
+}
+
 #first-face {
 	position: relative;
 	height: 100vh;
@@ -103,15 +107,18 @@ hr {
 	color: white;
 	padding: 4rem 0;
 }
+
 #vision hr {
 	background-color: white;
 }
+
 #vision .content .text {
 	text-align: justify;
 	font-size: 1.5rem;
 	font-weight: 300;
 	line-height: 2rem;
 }
+
 #vision .content .image {
 	border: 10px solid white;
 	box-sizing: border-box;
@@ -119,76 +126,92 @@ hr {
 	margin: 1rem 2rem;
 	height: fit-content;
 }
+
 #vision .content .image img {
 	width: 100%;
 }
+
 #causes {
 	min-height: 100vh;
 	padding-bottom: 4rem;
-
 }
+
 #causes .card-container {
 	display: flex;
-    justify-content: center;
-    padding: 2rem;
+	justify-content: center;
+	padding: 2rem;
 }
+
 #helpus {
-	
-    background: no-repeat center right fixed url(../img/donate.jpg);
+	background: no-repeat center right fixed url(../img/donate.jpg);
+	background-size: 100%;
 }
+
 #helpus .content {
 	padding: 4rem;
 	width: 100%;
 	height: 100%;
 	background-color: #f0c419d6;
 }
+
 #helpus .content {
 	color: white;
 }
+
 #helpus .content .button {
 	text-align: center;
 	margin-top: 1rem;
 }
+
 #helpus .content .button button {
 	text-align: center;
 	font-size: 1.8rem;
 }
+
 #footer {
 	min-height: 50vh;
 	background-color: #343a40!important;
 	color: white;
 	padding: 4rem;
 	font-size: 1.2rem;
-    font-weight: 300;
+	font-weight: 300;
 }
+
 #footer .about .image {
 	margin-bottom: 1rem;
 	display: flex;
 	justify-content: center;
 }
+
 #footer .about .image img {
 	width: 20rem;
 }
+
 #footer .about .text {
 	text-align: justify;
 }
+
 #footer .contact {
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 	align-items: center;
 	margin-top: 4rem;
 }
+
 #footer .contact-list {
 	list-style: none;
-    padding: 0;
+	padding: 0;
 }
+
 #footer .contact-list-item {
 	display: flex;
 	margin: 1rem 0;
 }
+
 #footer .contact-list-item span:first-child {
 	margin-right: 1rem;
 }
+
 #footer a {
 	color: #f0c41a !important;
 }
@@ -198,6 +221,7 @@ hr {
 		padding-right: 2rem;
 	}
 }
+
 @media screen and (min-width: 768px) {
 	#first-face .container h1 {
 		font-size: 6rem;
