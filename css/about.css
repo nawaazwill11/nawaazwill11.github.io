@@ -1,0 +1,107 @@
+p {
+	font-size: 1.2rem;
+	text-align: justify;
+}
+
+.body-title {
+	background-image: url(../img/about.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	box-shadow: 0px 0px 6px -3px grey;
+	width: 99.5%;
+	margin: 0 auto;
+}
+
+.body-title .text-overlay {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff9c;
+	/* box-shadow: 0px 3px 7px -4px grey; */
+}
+
+.body-title .text-overlay .text {
+	font-weight: bold;
+	font-size: 4rem;
+	color: #f0c419;
+}
+
+/* @supports (-webkit-text-stroke: 1px ) {
+	.body-title .text-overlay .text {
+	  -webkit-text-stroke: 1px #f0c419;
+	  -webkit-text-fill-color: black;
+	}
+  } */
+
+#description {
+	padding: 4rem 0;
+	margin-top: 0;
+}
+
+/* #description hr {
+	border: 1px solid white;
+} */
+
+#description .content {
+	padding: 2rem 0;
+}
+
+#description .box {
+	background-color: #f9e8a6;
+	padding: 2rem;
+}
+
+#chairman h5 {
+	color: #f0c419
+}
+
+#chairman .about p, #chairman .node p {
+	font-size: 1.2rem;
+	text-align: justify;
+	font-weight: 300;
+	display: inline-block;
+}
+
+#chairman .details {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+#chairman .details p {
+	display: inline-block;
+}
+
+#chairman .image img {
+	border-radius: 100%;
+	width: 75%;
+}
+
+#more-info .info-table {
+	background-color: #f9e8a6;
+}
+
+#more-info .info-row {
+	padding: 1rem 0.5rem;
+}
+
+#more-info .info-row strong {
+	font-weight: 500;
+}
+
+/* 
+#more-info .no-top-border {
+	border-top: none;
+}
+#more-info table thead th {
+	border-top: none;
+	background-color: #f9e8a6;
+} */
+
+@media screen and (min-width: 992px) {
+	#chairman .image img {
+		width: 85%;
+	}
+}

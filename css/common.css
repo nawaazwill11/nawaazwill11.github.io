@@ -1,0 +1,128 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	position: relative;
+}
+
+section {
+	width: 100%;
+	margin: 4rem 0;
+	box-sizing: border-box;
+}
+
+hr {
+	margin: 2rem 0;
+}
+
+a {
+	color: #f0c41a;
+}
+
+.btn-primary {
+	background-color: #343a40;
+	border: none;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 2;
+}
+
+.navbar-brand {
+	box-sizing: border-box;
+	padding: 10px
+}
+
+.navbar-brand img {
+	height: 40px;
+}
+
+.icon i {
+	font-size: 4rem;
+	color: #f0c51b;
+}
+
+.nav-tabs .nav-link {
+	padding: .5rem .5rem;
+}
+
+.section-name {
+	font-size: 3rem;
+	text-align: center;
+	font-weight: 300;
+}
+
+.quote {
+	font-size: 1.5rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.form-group {
+	margin-bottom: 2rem;
+}
+
+#footer {
+	min-height: 50vh;
+	background-color: #343a40!important;
+	color: white;
+	padding: 4rem;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+#footer .about .image {
+	margin-bottom: 1rem;
+	display: flex;
+	justify-content: center;
+}
+
+#footer .about .image img {
+	width: 15rem;
+}
+
+#footer .about .text {
+	text-align: justify;
+}
+
+#footer .contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 4rem;
+}
+
+#footer .contact-list {
+	list-style: none;
+	padding: 0;
+}
+
+#footer .contact-list-item {
+	display: flex;
+	margin: 0.5rem 0;
+}
+
+#footer .contact-list-item span:first-child {
+	margin-right: 1rem;
+}
+
+#footer a {
+	color: #f0c41a !important;
+}
+
+@media screen and (min-width: 992px) {
+	section {
+		margin: 8rem 0;
+	}
+	.navbar-nav li {
+		margin: 0 1rem;
+	}
+	#footer .about .image {
+		justify-content: flex-start;
+	}
+	#footer .contact {
+		margin-top: 0;
+	}
+}

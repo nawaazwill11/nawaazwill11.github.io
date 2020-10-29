@@ -1,51 +1,9 @@
-body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	position: relative;
-}
-
-section {
-	width: 100%;
-	margin-bottom: 4rem;
-	box-sizing: border-box;
-}
-
-hr {
-	margin: 2rem 0;
-}
-
-.navbar {
-	position: fixed;
-	width: 100%;
-	top: 0;
-	z-index: 2;
-}
-
-.navbar-brand {
-	box-sizing: border-box;
-	padding: 10px
-}
-
-.navbar-brand img {
-	height: 40px;
-}
-
-.icon i {
-	font-size: 5rem;
-	color: #f0c51b;
-}
-.nav-tabs .nav-link {
-	padding: .5rem .5rem;
-}
-.form-group {
-	margin-bottom: 2rem;
-}
-
 #first-face {
 	position: relative;
 	height: 100vh;
 	background: no-repeat center right fixed url(../img/first-face-background.jpg);
 	background-size: cover;
+	margin: 0;
 }
 
 #first-face .content {
@@ -75,20 +33,8 @@ hr {
 	font-weight: 300;
 }
 
-.section-name {
-	font-size: 3rem;
-	text-align: center;
-	font-weight: 300;
-}
-
-.quote {
-	font-size: 1.5rem;
-	font-weight: 300;
-	text-align: center;
-}
-
 #mission .container {
-	padding: 1.2rem
+	padding: 0 1.2rem
 }
 
 #mission .box {
@@ -108,7 +54,7 @@ hr {
 }
 
 #mission .icon-text-holder .text {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: 200;
 	text-align: center;
 }
@@ -144,7 +90,10 @@ hr {
 
 #causes {
 	min-height: 100vh;
-	padding-bottom: 4rem;
+}
+
+#causes .content {
+	padding-top: 1rem;
 }
 
 #causes .card-container {
@@ -178,54 +127,6 @@ hr {
 	text-align: center;
 	padding: 1rem 2rem;
 	font-size: 1.2rem;
-}
-
-#footer {
-	min-height: 50vh;
-	background-color: #343a40!important;
-	color: white;
-	padding: 4rem;
-	font-size: 1.2rem;
-	font-weight: 300;
-}
-
-#footer .about .image {
-	margin-bottom: 1rem;
-	display: flex;
-	justify-content: center;
-}
-
-#footer .about .image img {
-	width: 15rem;
-}
-
-#footer .about .text {
-	text-align: justify;
-}
-
-#footer .contact {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 4rem;
-}
-
-#footer .contact-list {
-	list-style: none;
-	padding: 0;
-}
-
-#footer .contact-list-item {
-	display: flex;
-	margin: 1rem 0;
-}
-
-#footer .contact-list-item span:first-child {
-	margin-right: 1rem;
-}
-
-#footer a {
-	color: #f0c41a !important;
 }
 
 @media screen and (min-width: 576px) {
@@ -262,14 +163,5 @@ hr {
 		right: 15px;
 		padding: 0;
 		margin: 0;
-	}
-	#mission .container {
-		/* padding: 40px 180px */
-	}
-	#footer .about .image {
-		justify-content: flex-start;
-	}
-	#footer .contact {
-		margin-top: 0;
 	}
 }
