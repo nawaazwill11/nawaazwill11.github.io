@@ -112,6 +112,12 @@ a {
 	color: #f0c41a !important;
 }
 
+@media screen and (max-width: 575px) {
+	footer {
+		padding: 4rem 2rem !important;
+	}
+}
+
 @media screen and (min-width: 992px) {
 	section {
 		margin: 8rem 0;
