@@ -1,10 +1,15 @@
+#affiliate .content img {
+	width: 100%;
+    object-fit: cover;
+}
+
 .card-img-top {
 	width: 100%;
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px);
     height: 150px;
     object-fit: contain;
-    background-color: #f0c419d6;
+    background-color: #343a40;
 }
 
 #cause-display {
@@ -147,6 +152,11 @@
 	font-size: 1.5rem;
     font-weight: 300;
 }
+
+#downloadable button {
+	padding: 1rem;
+}
+
 @media screen and (min-width: 992px) {
 	#cause-display .content {
 		overflow-y: hidden;
