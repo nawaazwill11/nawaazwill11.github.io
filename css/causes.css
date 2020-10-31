@@ -1,0 +1,162 @@
+.card-img-top {
+	width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    height: 150px;
+    object-fit: contain;
+    background-color: #f0c419d6;
+}
+
+#cause-display {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background-color: #f0c419d6;
+	top: 0;
+	left: 0;
+	z-index: 30;
+	/* overflow: hidden; */
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#cause-display hr {
+	margin: 1rem 0;
+}
+
+#cause-display .closer {
+	position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	z-index: 4;
+}
+
+#cause-display .closer button {
+	padding: 1rem;
+    border-radius: 100%;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	font-size: 2rem;
+	border: none;
+}
+
+#cause-display .content {
+	padding: 2rem;
+	height: 99%;
+	width: 99%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#cause-display .content>.row {
+	height: 100%;
+}
+
+#cause-display .image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+}
+
+#cause-display .slide,
+#cause-display .slide .carousel-inner,
+#cause-display .slide .carousel-inner .carousel-item {
+	height: 100%;
+}
+
+#cause-display .carousel-indicators li {
+	height: 7px;
+}
+
+#cause-display .slide .carousel-inner img {
+	height: 100%;
+	width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+}
+
+#cause-display .text {
+	background-color: white;
+	width: 100%;
+	height: fit-content;
+	box-sizing: border-box;
+	padding: 1rem;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#cause-display .text .project-name {
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
+#cause-display .info-list {
+	list-style: none;
+	margin-left: 0;
+	padding: 0;
+}
+
+#cause-display .info-list-item {
+	margin: 0.5rem 0;
+}
+
+#cause-display .info-list-item .heading {
+	font-weight: 400;
+}
+
+#cause-display .data .partial {
+	display: flex;
+	flex-direction: column;
+}
+
+#cause-display .text .left {
+	font-weight: 400;
+}
+
+#cause-display .text .right {
+	font-weight: 500;
+}
+
+#cause-display .text .donate button {
+	width: 100%;
+	margin: 1rem 0;
+}
+
+#cause-display .partner {
+	padding: 0.5rem;
+}
+
+#cause-display .partner img {
+	width: 100%;
+}
+
+#downloadable p {
+	font-size: 1.5rem;
+    font-weight: 300;
+}
+@media screen and (min-width: 992px) {
+	#cause-display .content {
+		overflow-y: hidden;
+	}
+	#cause-display .text{
+		height: 100%;
+	}
+}
+@media screen and (min-width: 1200px) {
+	#cause-display .content {
+		padding: 4rem;
+	}
+}
