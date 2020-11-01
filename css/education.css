@@ -33,7 +33,7 @@
 
 #benefits .picto-text {
 	display: flex;
-	margin: 10rem 0;
+	margin: 8rem 0;
 }
 
 #benefits .picto-text:first-child {
@@ -55,20 +55,13 @@
 	width: 100%;
 }
 
-#contact {
-	/* background: no-repeat center center fixed url(../img/courses-background2.jpg); */
-}
-/* 
-#contact .overlay {
+#about .overlay {
 	width: 100%;
 	height: 100%;
 	background-color: #2BCEFFd6;
 	padding: 2rem 0;
 } */
 
-#about {
-	/* background: no-repeat center center fixed url(../img/about-background2.jpg); */
-}
 
 #about .text {
 	text-align: justify;
@@ -167,6 +160,9 @@ footer .social-link {
 	}
 	.rights, .developer {
 		text-align: left;
+	}
+	#benefits .picto-text {
+		margin: 10rem 0;
 	}
 	#benefits .picto-text .text {
 		text-align: left;
