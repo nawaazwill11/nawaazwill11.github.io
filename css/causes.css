@@ -44,7 +44,7 @@
 #cause-display .closer button {
 	padding: 1rem;
     border-radius: 100%;
-    background-color: white;
+    background-color: #ffffffd1;
     width: 50px;
     height: 50px;
     display: flex;
@@ -55,7 +55,6 @@
 }
 
 #cause-display .content {
-	padding: 2rem;
 	height: 99%;
 	width: 99%;
 	overflow-x: hidden;
@@ -98,7 +97,7 @@
 	width: 100%;
 	height: fit-content;
 	box-sizing: border-box;
-	padding: 1rem;
+	padding: 1rem 2rem;
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
@@ -160,9 +159,11 @@
 @media screen and (min-width: 992px) {
 	#cause-display .content {
 		overflow-y: hidden;
+		padding: 2rem;
 	}
 	#cause-display .text{
 		height: 100%;
+		padding: 1rem;
 	}
 }
 @media screen and (min-width: 1200px) {
