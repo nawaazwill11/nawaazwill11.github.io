@@ -28,6 +28,10 @@ section {
 	box-sizing: border-box;
 }
 
+.no-margin {
+	margin: 0;
+}
+
 hr {
 	margin: 2rem 0;
 }

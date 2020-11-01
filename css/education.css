@@ -1,155 +1,92 @@
-
-body {
-	font-size: 16px;
-	font-family: 'Roboto';
-	font-weight: 400;
+.nav-spacer {
+	width: 100%;
+	height: 72px;
 }
 
-p {
-	font-size: 1.2rem;
+.large-text {
+	font-size: 3.5rem;
 }
 
-.navbar-brand img {
-	width: 100px;
+.card-container {
+	padding: 1rem 0;
 }
 
-.navbar .nav-item {
-	padding: 0 1rem;
-}
-
-.root {
-	display: grid;
-	grid-template-rows: calc(100vh - 64px) auto auto;
-}
-
-section {
-	/* border: 1px solid */
-	/* margin-bottom: 5rem; */
+.medium-text {
+	font-size: 1.5rem;
 }
 
 #first-face {
-	display: grid;
-	grid-template-rows: 1.2fr 1fr 1fr 4fr;
-	grid-row-gap: 10px;
-	padding: 0 3rem;
-	background-color: #2BCEFF;
+	background: no-repeat center center fixed url(../img/first-face-background2.jpg);
+	height: 100vh;
+}
+
+#first-face .content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
 	color: white;
+	background-color: #2BCEFFd6;
+	padding: 1rem;
 }
 
-.section-header {
-	padding: 1rem 0.5rem
-}
-
-#benefits {
-	display: grid;
-	grid-template-rows: auto 1fr;
-	row-gap: 3rem;
-}
-
-#benefits .content {
-	display: grid;
-	grid-template-rows: repeat(3, 1fr);
-	row-gap: 8rem;
-	justify-content: center;
-}
-
-#benefits .pictograph {
+#benefits .picto-text {
 	display: flex;
-	justify-content: center;
+	margin: 10rem 0;
 }
 
-#benefits .row-inner {
-	display: flex;
-	gap: 2rem;
-	direction: rtl
+#benefits .picto-text:first-child {
+	margin-top: 4rem;
 }
 
-#benefits .row-inner {
-	display: flex;
-}
-
-#benefits .row-inner-reverse {
-	display: flex;
+#benefits .picto-text-reverse {
 	flex-direction: row-reverse;
 }
 
-#benefits .row .text {
-	display: inline-block;
-	flex: 1;
-}
-
-.benefit-icon img {
-	width: 250px;
-}
-
-#courses {
-	height: auto;
-}
-
-#courses .card-container {
-	display: grid;
-	grid-template-columns: repeat(2, 18rem);
-	padding: 0 1rem;
-	padding-top: 3rem;
-	column-gap: 2rem;
-}
-
-#courses .card-img-top {
-	height: 135px;
-}
-
-#aboutus .content {
-	display: grid;
-	row-gap: 1rem
-}
-
-#aboutus .row {
-	display: block;
-}
-
-#aboutus .text-container {
-	display: flex;
-	justify-content: center;
-	line-height: 25px;
-	word-spacing: 1px;
+#benefits .picto-text .text {
+	text-align: justify;
+	font-weight: 300;
 	font-size: 1.2rem;
 }
 
-#aboutus .text-container .text {
+#benefits .picto-text .picture img {
+	width: 100%;
+}
+
+#contact {
+	/* background: no-repeat center center fixed url(../img/courses-background2.jpg); */
+}
+/* 
+#contact .overlay {
+	width: 100%;
+	height: 100%;
+	background-color: #2BCEFFd6;
+	padding: 2rem 0;
+} */
+
+#about {
+	/* background: no-repeat center center fixed url(../img/about-background2.jpg); */
+}
+
+#about .text {
 	text-align: justify;
+	font-size: 1.2rem;
 }
 
-#aboutus .img-container {
+#about .image-container {
+	height: 100%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	padding: 1rem 0;
 }
 
-#aboutus .img img {
-	width: 15rem;
-}
-
-#contact .sub-heading {
-	display: flex;
-	justify-content: center;
-}
-
-#contact .sub-heading h3 {
-	width: fit-content;
-	padding: 1rem;
-	border-bottom: 1px solid lightgray;
-}
-
-#contact .content {
-	display: grid;
-	row-gap: 2rem;
-}
-
-#contact .row {
-	display: block;
-}
-
-.interact {
-	padding: 1rem;
+#about .image {
+	width: 250px;
+	object-fit: contain;
+	;
 }
 
 footer {
@@ -172,7 +109,7 @@ footer .row {
 
 footer .social-link-container {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	column-gap: 2rem
 }
 
@@ -192,36 +129,61 @@ footer .social-link {
 
 .site-info {
 	display: flex;
+	flex-direction: column;
 	margin-top: 1rem;
+	align-items: center;
 }
 
 .rights {
+	display: flex;
+	flex-direction: column;
 	flex: 1;
+	margin: 1rem 0;
 }
 
-@media screen and (max-width: 764px) {
-	#benefits .row-inner {
-		flex-direction: column-reverse;
+.rights, .developer {
+	text-align: center;
+}
+.developer {
+	font-weight: 300;
+}
+
+@media screen and (min-width: 576px) {
+	#first-face .content {
+		padding: 2rem;
 	}
-	#benefits .row-inner-reverse {
-		flex-direction: column;
-	}
-	#courses .card-container {
-		grid-template-columns: 18rem;
-		justify-content: center;
-		row-gap: 2rem;
-	}
-	#aboutus .img img {
-		width: 12rem;
-	}
-	#contact .card-container {
-		display: flex;
-		justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+	#first-face .content {
+		padding: 3rem;
 	}
 	.site-info {
-		flex-direction: column;
+		flex-direction: row;
+	}
+	.rights {
+		flex-direction: row;
 	}
 	.rights, .developer {
-		text-align: center;
+		text-align: left;
+	}
+	
+}
+
+@media screen and (min-width: 992px) {
+	#first-face .content {
+		padding: 2rem
+	}
+	.large-text {
+		font-size: 4rem;
+	}
+	.medium-text {
+		font-size: 2rem;
+	}
+	#about .image-container {
+		padding: unset;
+	}
+	#about .image {
+		width: 100%;
 	}
 }
