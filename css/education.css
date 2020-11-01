@@ -45,9 +45,10 @@
 }
 
 #benefits .picto-text .text {
-	text-align: justify;
-	font-weight: 300;
-	font-size: 1.2rem;
+	text-align: center;
+    font-weight: 300;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
 }
 
 #benefits .picto-text .picture img {
@@ -167,7 +168,12 @@ footer .social-link {
 	.rights, .developer {
 		text-align: left;
 	}
-	
+	#benefits .picto-text .text {
+		text-align: left;
+	}
+	#benefits .picto-text-reverse .text {
+		text-align: right;
+	}
 }
 
 @media screen and (min-width: 992px) {

@@ -28,6 +28,19 @@ p {
 	padding: 2rem;
 }
 
+#description .text-box p {
+	font-weight: 300;
+	font-size: 1.2rem;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+#description .content hr {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #chairman h5 {
 	color: #f0c419
 }
