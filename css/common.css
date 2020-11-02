@@ -73,6 +73,32 @@ a {
 	height: 40px;
 }
 
+#donate-info-panel {
+	position: fixed;
+	display: none;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	background-color: #f9e8a6b8;
+	z-index: 4;
+}
+
+#donate-info-panel .content {
+	background-color: white;
+	padding: 1rem;
+	margin-top: 8rem;
+	margin-bottom: 4rem;
+}
+
+#donate-info-panel .content strong {
+	font-weight: 500;
+}
+
+#donate-info-panel .content .closer {
+	display: flex;
+	justify-content: flex-end;
+}
+
 .donate-button-nav {
 	width: 100px !important;
 }

@@ -57,12 +57,63 @@
 					</div>
 				</li>
 				<li class="nav-item active">
-					<button class="nav-link btn btn-primary-reverse donate-button-nav">Donate</button>
+					<button class="nav-link btn btn-primary-reverse donate-button-nav donate-action">Donate</button>
 					<!-- <a class="nav-link" href="/contact.html">Contact <span class="sr-only">(current)</span></a> -->
 				</li>
 			</ul>
 		</div>
 	</nav>
+
+	<div id="donate-info-panel">
+		<div class="col-sm-10 col-md-8 col-lg-6" style="height: 100%; overflow-y: auto;">
+			<div class="content">
+				<h1 class="text-center">Donation Information</h1>
+				<hr style="margin: 1rem 0">
+				<section class="no-margin">
+					<h5>Payment Details</h5>
+					<div class="row">
+						<div class="col-sm-6 col-md-4">
+							<span class="d-block"><strong>Mode</strong></span>
+							<span class="d-block">Bank Transfer</span>
+						</div>
+					</div>
+					<!-- <hr style="width: 90%; margin-left: auto; margin-right: auto;"> -->
+				</section>
+				<hr style="width: 90%; margin: 0.5rem auto;">
+				<section class="no-margin">
+					<h5>Bank Details</h5>
+					<div class="row">
+						<div class="col-sm-6 col-md-4">
+							<span class="d-block"><strong>Bank Name</strong></span>
+							<span class="d-block">xxxxxxxxx</span>
+						</div>
+						<div class="col-sm-6 col-md-4">
+							<span class="d-block"><strong>IFSC Code</strong></span>
+							<span class="d-block">xxxxxxxx</span>
+						</div>
+					</div>
+					<!-- <hr style="width: 90%; margin-left: auto; margin-right: auto;"> -->
+				</section>
+				<hr style="width: 90%; margin: 0.5rem auto;">
+				<section class="no-margin">
+					<h5>Account Details</h5>
+					<div class="row">
+						<div class="col-sm-6 col-md-4">
+							<span class="d-block"><strong>Account Name</strong></span>
+							<span class="d-block">xxxxxxx xxxxxxxx</span>
+						</div>
+						<div class="col-sm-6 col-md-4">
+							<span class="d-block"><strong>Account Number</strong></span>
+							<span class="d-block">xxxxxxxxxxxxxxx</span>
+						</div>
+					</div>
+				</section>
+				<div class="closer">
+					<button id="donate-info-panel-close" class="btn btn-primary ">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div style="height: 76px;"></div>
 	<div class="body-title">
@@ -111,10 +162,11 @@
 					<div class="col-lg-4 about">
 						<h5>About</h5>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							<strong>Universal NGO</strong> came from a vision of making the world a better place. After
+							<strong>15 years in service</strong> of the society and providing free education, training
+							and assistance to the needy, we are striving even harder to provide reach more and more
+							people in various parts of Gujarat and the country, overall; and we plan to continue to do
+							so in the coming years.
 						</p>
 					</div>
 					<div class="col-lg-4 text-center image">
@@ -299,7 +351,7 @@
 					<h1 class="section-name">Help Us Make The World A Better Place</h1>
 				</div>
 				<div class="col-12 button">
-					<button class="btn btn-primary">Donate Now</button>
+					<button class="btn btn-primary donate-action">Donate Now</button>
 				</div>
 			</div>
 		</div>
@@ -356,7 +408,7 @@
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 		crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/d091858e73.js" crossorigin="anonymous"></script>
-	<script src="" async defer></script>
+	<script src="js/common.js" async defer></script>
 </body>
 
 </html>

@@ -58,9 +58,9 @@
 #about .overlay {
 	width: 100%;
 	height: 100%;
-	background-color: #2BCEFFd6;
+	/* background-color: #2BCEFFd6; */
 	padding: 2rem 0;
-} */
+}
 
 
 #about .text {
