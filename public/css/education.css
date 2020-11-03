@@ -1,0 +1,191 @@
+.nav-spacer {
+	width: 100%;
+	height: 72px;
+}
+
+.large-text {
+	font-size: 3.5rem;
+}
+
+.card-container {
+	padding: 1rem 0;
+}
+
+.medium-text {
+	font-size: 1.5rem;
+}
+
+#first-face {
+	background: no-repeat center center fixed url(../img/first-face-background2.jpg);
+	height: 100vh;
+}
+
+#first-face .content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	color: white;
+	background-color: #2BCEFFd6;
+	padding: 1rem;
+}
+
+#benefits .picto-text {
+	display: flex;
+	margin: 8rem 0;
+}
+
+#benefits .picto-text:first-child {
+	margin-top: 4rem;
+}
+
+#benefits .picto-text-reverse {
+	flex-direction: row-reverse;
+}
+
+#benefits .picto-text .text {
+	text-align: center;
+    font-weight: 300;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+#benefits .picto-text .picture img {
+	width: 100%;
+}
+
+#about .overlay {
+	width: 100%;
+	height: 100%;
+	/* background-color: #2BCEFFd6; */
+	padding: 2rem 0;
+}
+
+
+#about .text {
+	text-align: justify;
+	font-size: 1.2rem;
+}
+
+#about .image-container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 0;
+}
+
+#about .image {
+	width: 250px;
+	object-fit: contain;
+	;
+}
+
+footer {
+	background-color: #22223B;
+	color: white;
+	padding: 2rem;
+}
+
+footer .connect {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+footer .row {
+	display: block;
+	width: fit-content;
+}
+
+footer .social-link-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 2rem
+}
+
+footer .social-link {
+	width: 50px;
+	height: 50px;
+	background: white;
+	color: #22223B;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.site-info {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+	align-items: center;
+}
+
+.rights {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin: 1rem 0;
+}
+
+.rights, .developer {
+	text-align: center;
+}
+.developer {
+	font-weight: 300;
+}
+
+@media screen and (min-width: 576px) {
+	#first-face .content {
+		padding: 2rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#first-face .content {
+		padding: 3rem;
+	}
+	.site-info {
+		flex-direction: row;
+	}
+	.rights {
+		flex-direction: row;
+	}
+	.rights, .developer {
+		text-align: left;
+	}
+	#benefits .picto-text {
+		margin: 10rem 0;
+	}
+	#benefits .picto-text .text {
+		text-align: left;
+	}
+	#benefits .picto-text-reverse .text {
+		text-align: right;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#first-face .content {
+		padding: 2rem
+	}
+	.large-text {
+		font-size: 4rem;
+	}
+	.medium-text {
+		font-size: 2rem;
+	}
+	#about .image-container {
+		padding: unset;
+	}
+	#about .image {
+		width: 100%;
+	}
+}
