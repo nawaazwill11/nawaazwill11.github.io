@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
-    "start": "next start"
+	"start": "next start",
+	"heroku-postbuild": "npm run build",
   },
   "dependencies": {
     "classnames": "^2.2.6",
